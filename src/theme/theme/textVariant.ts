@@ -25,7 +25,7 @@ export const TextStyles: Record<TextVariants, string> = {
   [TextVariants.H4]:
     "text-4xl font-semibold text-gray-900 dark:text-white font-poppins leading-[43.2px]",
   [TextVariants.H5]:
-    "text-[32px] font-semibold text-gray-900 dark:text-white font-poppins leading-[38.4px]",
+    "text-[24px] xl:text-[32px] font-semibold text-gray-900 dark:text-white font-poppins leading-[38.4px]",
   [TextVariants.P1]:
     "text-2xl font-normal text-gray-900 dark:text-white font-poppins",
   [TextVariants.P2]:

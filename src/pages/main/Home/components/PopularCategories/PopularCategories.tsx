@@ -5,16 +5,19 @@ import {
   SeeAllSection,
   Text,
 } from "../../../../../components/atoms";
+import { Col, Row } from "antd";
 
 export const PopularCategories: React.FC = () => {
   return (
     <section className="popular-categories py-10">
       <SeeAllSection title="Popular Categories" />
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+      <Row gutter={[16, 16]}>
         {categoriesData.map((category) => (
-          <CategoryCard key={category.id} category={category} />
+          <Col key={category.id} xs={24} sm={12} md={8} lg={6} xl={4}>
+            <CategoryCard category={category} />
+          </Col>
         ))}
-      </div>
+      </Row>
     </section>
   );
 };
