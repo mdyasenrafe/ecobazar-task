@@ -49,7 +49,7 @@ export const productsData: TProduct[] = [
     id: 7,
     name: "Corn",
     price: "$20.00",
-    image: "https://i.ibb.co.com/Sm2hGfb/Product-Image-4.png",
+    image: "https://i.ibb.co.com/Y8CBq3n/Product-Image.png",
     rating: 4.0,
   },
   {
@@ -72,7 +72,7 @@ export const productsData: TProduct[] = [
     id: 10,
     name: "Green Chili",
     price: "$34.00",
-    image: "https://i.ibb.co.com/Y8CBq3n/Product-Image.png",
+    image: "https://i.ibb.co.com/Sm2hGfb/Product-Image-4.png",
     rating: 4.0,
   },
 ];
