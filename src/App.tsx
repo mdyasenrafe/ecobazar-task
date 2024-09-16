@@ -1,11 +1,14 @@
 import "./App.css";
 import { Text } from "./components/atoms";
+import { MainLayout } from "./components/atoms/layout";
+import { Home } from "./pages/main";
 
 function App() {
   return (
     <div>
-      <Text variant={"P4"}>This is a text</Text>
-      <Text variant={"H2"}>This is a text</Text>
+      <MainLayout>
+        <Home />
+      </MainLayout>
     </div>
   );
 }

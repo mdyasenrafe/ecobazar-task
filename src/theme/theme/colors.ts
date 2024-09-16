@@ -8,6 +8,7 @@ export enum colors {
   grey = "#e1e1e1",
   red = "#FF0000",
   green = "#00FF00",
+  black = "#1A1A1A",
 }
 
 export type ColorKey = keyof typeof colors;
