@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  ShoppingCartOutlined,
-  CustomerServiceOutlined,
-  LockOutlined,
-  ReloadOutlined,
-} from "@ant-design/icons";
+import { Row, Col } from "antd";
 import { Text } from "../../../../../components/atoms";
 import { ReactComponent as DeliveryIcon } from "../../../../../assets/icons/home/features/deliveryIcon.svg";
 import { ReactComponent as CustomerSupport } from "../../../../../assets/icons/home/features/headphoneIcon.svg";
@@ -34,24 +29,26 @@ const featuresArray = [
   },
 ];
 
-const FeaturesSection: React.FC = () => {
+export const FeaturesSection: React.FC = () => {
   return (
-    <div className="bg-white p-10 rounded-lg shadow flex justify-between items-center">
-      {featuresArray.map((feature, index) => (
-        <div className="flex items-center space-x-4" key={index}>
-          <div>{feature.icon}</div>
-          <div>
-            <Text variant="P4" className="font-semibold">
-              {feature.title}
-            </Text>
-            <Text variant="P5" className="text-[#999999]">
-              {feature.description}
-            </Text>
-          </div>
-        </div>
-      ))}
+    <div className="bg-white p-10 rounded-lg shadow">
+      <Row gutter={[16, 16]} justify="space-between" align="middle">
+        {featuresArray.map((feature, index) => (
+          <Col xs={24} sm={12} md={12} xl={6} key={index}>
+            <div className="flex items-center space-x-4 mb-3 xl:mb-0">
+              <div>{feature.icon}</div>
+              <div>
+                <Text variant="P4" className="font-semibold">
+                  {feature.title}
+                </Text>
+                <Text variant="P5" className="text-[#999999]">
+                  {feature.description}
+                </Text>
+              </div>
+            </div>
+          </Col>
+        ))}
+      </Row>
     </div>
   );
 };
-
-export default FeaturesSection;
