@@ -12,7 +12,7 @@ export const HeroSection = () => {
             <Text className="!text-white mb-7" variant="H2">
               Fresh & Healthy <br /> Organic Food
             </Text>
-            <div className="border-r-2 border-r-[#84D187]">
+            <div className="border-l-2 border-l-[#84D187] pl-3">
               <div className="flex items-center">
                 <Text variant="P5" className="!text-white">
                   Sale up to

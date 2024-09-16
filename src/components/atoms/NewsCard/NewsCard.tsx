@@ -67,9 +67,9 @@ export const NewsCard: React.FC<NewsCardProps> = ({ news }) => {
       className="rounded-lg shadow "
     >
       <div className="p-6">
-        <div className="flex mb-2">
+        <div className="flex mb-2 flex-wrap">
           {items.map((item) => (
-            <div className="flex mr-4">
+            <div className="flex mr-4 pb-2">
               {item.icon} {item.label}
             </div>
           ))}
