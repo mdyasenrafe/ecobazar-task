@@ -9,7 +9,7 @@ import { Col, Row } from "antd";
 
 export const PopularCategories: React.FC = () => {
   return (
-    <section className="popular-categories py-10">
+    <section className="popular-categories mt-[60px]">
       <SeeAllSection title="Popular Categories" />
       <Row gutter={[16, 16]}>
         {categoriesData.map((category) => (

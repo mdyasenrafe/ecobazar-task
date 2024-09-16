@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "../../../components/atoms";
 import {
+  FeaturedProducts,
   FeaturesSection,
   HeroSection,
   PopularCategories,
@@ -15,6 +16,7 @@ export const Home = () => {
         <FeaturesSection />
         <PopularCategories />
         <PopularProducts />
+        <FeaturedProducts />
       </div>
     </Container>
   );

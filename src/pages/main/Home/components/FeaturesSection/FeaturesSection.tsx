@@ -31,7 +31,7 @@ const featuresArray = [
 
 export const FeaturesSection: React.FC = () => {
   return (
-    <div className="bg-white p-10 rounded-lg shadow">
+    <div className="bg-white p-10 rounded-lg shadow mt-6">
       <Row gutter={[16, 16]} justify="space-between" align="middle">
         {featuresArray.map((feature, index) => (
           <Col xs={24} sm={12} md={12} xl={6} key={index}>
