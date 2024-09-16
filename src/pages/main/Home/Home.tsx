@@ -1,11 +1,12 @@
 import React from "react";
 import { Container } from "../../../components/atoms";
-import { PopularCategories } from "./components";
+import { PopularCategories, PopularProducts } from "./components";
 
 export const Home = () => {
   return (
     <Container>
       <PopularCategories />
+      <PopularProducts />
     </Container>
   );
 };

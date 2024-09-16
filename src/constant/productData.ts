@@ -1,0 +1,78 @@
+import { TProduct } from "../types";
+
+export const productsData: TProduct[] = [
+  {
+    id: 1,
+    name: "Green Apple",
+    price: "$14.99",
+    originalPrice: "$20.99",
+    discount: "50%",
+    image: "https://i.ibb.co.com/VMkj4Qn/Product-Image.png",
+    rating: 4.2,
+  },
+  {
+    id: 2,
+    name: "Fresh Indian Malta",
+    price: "$20.00",
+    image: "https://i.ibb.co.com/mC83GCT/Product-Image-1.png",
+    rating: 4.5,
+  },
+  {
+    id: 3,
+    name: "Chinese Cabbage",
+    price: "$12.00",
+    image: "https://i.ibb.co.com/gmCd0WC/Product-Image-2.png",
+    rating: 4.0,
+  },
+  {
+    id: 4,
+    name: "Green Lettuce",
+    price: "$9.00",
+    image: "https://i.ibb.co.com/0GY5ySz/Product-Image-3.png",
+    rating: 4.0,
+  },
+  {
+    id: 5,
+    name: "Eggplant",
+    price: "$34.00",
+    image: "https://i.ibb.co.com/nBvG08W/Product-Image.png",
+    rating: 4.0,
+  },
+  {
+    id: 6,
+    name: "Big Potatoes",
+    price: "$20.00",
+    image: "https://i.ibb.co.com/VWp0X6T/Product-Image-1.png",
+    rating: 4.5,
+  },
+  {
+    id: 7,
+    name: "Corn",
+    price: "$20.00",
+    image: "https://i.ibb.co.com/Sm2hGfb/Product-Image-4.png",
+    rating: 4.0,
+  },
+  {
+    id: 8,
+    name: "Fresh Cauliflower",
+    price: "$12.00",
+    image: "https://i.ibb.co.com/t23jYTk/Product-Image-2.png",
+    rating: 4.0,
+  },
+  {
+    id: 9,
+    name: "Green Capsicum",
+    price: "$9.00",
+    originalPrice: "$20.99",
+    discount: "50%",
+    image: "https://i.ibb.co.com/bBfbDrV/Product-Image-3.png",
+    rating: 4.0,
+  },
+  {
+    id: 10,
+    name: "Green Chili",
+    price: "$34.00",
+    image: "https://i.ibb.co.com/Y8CBq3n/Product-Image.png",
+    rating: 4.0,
+  },
+];

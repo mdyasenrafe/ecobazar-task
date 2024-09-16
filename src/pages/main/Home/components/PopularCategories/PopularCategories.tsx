@@ -1,5 +1,4 @@
 import React from "react";
-import { FiArrowRight } from "react-icons/fi";
 import { categoriesData } from "../../../../../constant";
 import { CategoryCard, Text } from "../../../../../components/atoms";
 import { ReactComponent as RightArrowIcon } from "../../../../../assets/icons/rightArrowIcon.svg";
