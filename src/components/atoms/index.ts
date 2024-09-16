@@ -5,3 +5,4 @@ export * from "./CategoryCard";
 export * from "./ProductCard";
 export * from "./Rating";
 export * from "./SeeAllSection";
+export * from "./NewsCard";

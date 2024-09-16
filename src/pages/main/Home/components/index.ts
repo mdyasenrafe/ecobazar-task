@@ -3,3 +3,4 @@ export * from "./PopularProducts";
 export * from "./FeaturedProducts";
 export * from "./FeaturesSection";
 export * from "./HeroSection";
+export * from "./NewsSection";
